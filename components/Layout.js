@@ -18,20 +18,8 @@ export default function Layout({
       <div className='overflow-hidden min-h-screen'>
         <Header />
         {/*  Page content */}
-        <main className='flex-grow'>
-          {children}
-          <ToastContainer
-            position='top-right'
-            autoClose={5000}
-            hideProgressBar={false}
-            newestOnTop={false}
-            closeOnClick
-            rtl={false}
-            pauseOnFocusLoss
-            draggable
-            pauseOnHover
-          />
-        </main>
+        <main className='flex-grow'>{children}</main>
+        <Toaster />
 
         {/*  Site footer */}
         <Footer />
