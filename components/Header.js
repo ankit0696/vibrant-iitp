@@ -122,12 +122,11 @@ export default function Header() {
                     >
                       About
                     </a>
-                    <a
-                      href='javascript:void(0)'
-                      className='text-gray-600 hover:text-orange-600 font-medium text-sm'
-                    >
-                      Apply Now
-                    </a>
+                    <Link href='/account/login'>
+                      <a className='text-gray-600 hover:text-orange-600 font-medium text-sm'>
+                        Apply Now
+                      </a>
+                    </Link>
                   </nav>
                 </div>
               </div>
