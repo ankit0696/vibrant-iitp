@@ -49,12 +49,11 @@ export default function Header() {
                   </a>
                 </li>
                 <li className='relative group'>
-                  <a
-                    href='javascript:void(0)'
-                    className='font-semibold inline-flex items-center space-x-1 h-8 px-4 group-hover:text-orange-500 text-gray-900 hover:text-gray-500'
-                  >
-                    <span>About</span>
-                  </a>
+                  <Link href='/about'>
+                    <a className='font-semibold inline-flex items-center space-x-1 h-8 px-4 group-hover:text-orange-500 text-gray-900 hover:text-gray-500'>
+                      <span>About</span>
+                    </a>
+                  </Link>
                 </li>
                 <li className='relative group'>
                   <Link href='/account/login'>
@@ -115,12 +114,11 @@ export default function Header() {
                     >
                       Guidelines
                     </a>
-                    <a
-                      href='javascript:void(0)'
-                      className='text-gray-600 hover:text-orange-600 font-medium text-sm'
-                    >
-                      About
-                    </a>
+                    <Link href='/about'>
+                      <a className='text-gray-600 hover:text-orange-600 font-medium text-sm'>
+                        About
+                      </a>
+                    </Link>
                     <Link href='/account/login'>
                       <a className='text-gray-600 hover:text-orange-600 font-medium text-sm'>
                         Apply Now
