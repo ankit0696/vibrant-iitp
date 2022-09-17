@@ -37,14 +37,6 @@ export default function Header() {
                     href='javascript:void(0)'
                     className='font-semibold inline-flex items-center space-x-1 h-8 px-4 group-hover:text-orange-500 text-gray-900 hover:text-gray-500'
                   >
-                    <span>Team</span>
-                  </a>
-                </li>
-                <li className='relative group'>
-                  <a
-                    href='javascript:void(0)'
-                    className='font-semibold inline-flex items-center space-x-1 h-8 px-4 group-hover:text-orange-500 text-gray-900 hover:text-gray-500'
-                  >
                     <span>Guidelines</span>
                   </a>
                 </li>
@@ -102,12 +94,6 @@ export default function Header() {
                     Menu
                   </h4>
                   <nav className='flex flex-col space-y-3'>
-                    <a
-                      href='javascript:void(0)'
-                      className='text-gray-600 hover:text-orange-600 font-medium text-sm'
-                    >
-                      Team
-                    </a>
                     <a
                       href='javascript:void(0)'
                       className='text-gray-600 hover:text-orange-600 font-medium text-sm'

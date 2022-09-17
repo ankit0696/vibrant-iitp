@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function AboutHeader() {
+export default function AboutHero() {
   return (
     <div>
       {/* About Section: Company with Values */}
