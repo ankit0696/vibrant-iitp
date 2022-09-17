@@ -58,7 +58,7 @@ export default function Header() {
                   </a>
                   {/* END Solutions Link */}
                   {/* Solutions Menu */}
-                  <div className='absolute w-96 top-8 left-1/2 -ml-48 z-1 pt-8 invisible group-hover:visible'>
+                  <div className='absolute w-96 top-8 left-1/2 -ml-48 z-20 pt-8 invisible group-hover:visible'>
                     <div className='bg-white shadow-xl ring-1 ring-black ring-opacity-5 rounded-lg transform origin-top transition duration-300 ease-out opacity-0 scale-75 group-hover:opacity-100 group-hover:scale-100 overflow-hidden'>
                       <div className='p-3 space-y-6 transform transition duration-500 ease-out opacity-0 scale-90 group-hover:opacity-100 group-hover:scale-100'>
                         <h4 className='px-3 pt-3 text-xs uppercase font-semibold tracking-wider text-orange-800'>
@@ -175,7 +175,7 @@ export default function Header() {
                   </a>
                   {/* END Developers Link */}
                   {/* Developers Menu */}
-                  <div className='absolute w-96 top-8 left-1/2 -ml-48 z-1 pt-8 invisible group-hover:visible'>
+                  <div className='absolute w-96 top-8 left-1/2 -ml-48 z-20 pt-8 invisible group-hover:visible'>
                     <div className='bg-white shadow-xl ring-1 ring-black ring-opacity-5 rounded-lg transform origin-top transition duration-300 ease-out opacity-0 scale-75 group-hover:opacity-100 group-hover:scale-100 overflow-hidden'>
                       <div className='grid grid-cols-2 transform transition duration-500 ease-out opacity-0 scale-90 group-hover:opacity-100 group-hover:scale-100'>
                         <div className='p-6 space-y-6'>
@@ -391,7 +391,7 @@ export default function Header() {
                   </a>
                   {/* END Resources Link */}
                   {/* Resources Menu */}
-                  <div className='absolute w-96 top-8 left-1/2 -ml-48 z-1 pt-8 invisible group-hover:visible'>
+                  <div className='absolute w-96 top-8 left-1/2 -ml-48 z-20 pt-8 invisible group-hover:visible'>
                     <div className='bg-white shadow-xl ring-1 ring-black ring-opacity-5 rounded-lg transform origin-top transition duration-300 ease-out opacity-0 scale-75 group-hover:opacity-100 group-hover:scale-100 overflow-hidden'>
                       <div className='transform transition duration-500 ease-out opacity-0 scale-90 group-hover:opacity-100 group-hover:scale-100'>
                         <div className='grid grid-cols-2'>
@@ -713,12 +713,6 @@ export default function Header() {
             {/* END Navigation on smaller screens */}
           </div>
         </header>
-        {/* END Header */}
-        {/*
-
-  ADD YOUR HERO CONTENT BELOW
-
-  */}
       </div>
     </div>
   )
