@@ -8,7 +8,7 @@ export default function Hero() {
       <div className='flex flex-col lg:flex-row space-y-16 lg:space-y-0 text-center lg:text-left container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32'>
         <div className='lg:w-1/2 lg:flex lg:items-center'>
           <div>
-            <div className='font-semibold inline-flex px-2 py-1 leading-4 mb-2 text-sm rounded text-orange-700 bg-orange-200'>
+            <div className='font-semibold inline-flex px-2 py-1 leading-4 mb-2 text-sm rounded text-orange-700 bg-orange-200 hover:animate-pulse'>
               Live
             </div>
             <h1 className='text-3xl md:text-4xl font-extrabold mb-4'>
