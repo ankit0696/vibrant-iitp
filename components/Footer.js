@@ -83,41 +83,22 @@ export default function Footer() {
             </div>
             <div className='space-y-6'>
               <h4 className='text-sm uppercase font-semibold tracking-wider text-gray-500'>
-                Company Inc
+                Indian Institute of Technology, Patna
               </h4>
               <div className='text-sm leading-relaxed text-gray-300'>
-                1080 Sunshine Valley, Suite 2563
+                Indian Institute of Technology Patna,
                 <br />
-                San Francisco, CA 85214
+                Bihta, Patna -801106 (Bihar)
                 <br />
-                <abbr title='Phone'>P:</abbr> (123) 456-7890
-              </div>
-              <h4 className='text-sm uppercase font-semibold tracking-wider text-gray-500'>
-                Join Our Newsletter
-              </h4>
-              <form
-                onsubmit='return false;'
-                className='space-y-3 sm:space-y-0 sm:flex sm:items-center sm:space-x-2'
-              >
-                <div className='sm:grow'>
-                  <label htmlFor='email' className='sr-only'>
-                    Email
-                  </label>
-                  <input
-                    className='block border placeholder-gray-400 py-2 leading-5 text-sm w-full rounded border-gray-200 focus:border-indigo-500 focus:ring focus:ring-indigo-500 focus:ring-opacity-50'
-                    type='email'
-                    id='email'
-                    name='email'
-                    placeholder='Email'
-                  />
-                </div>
-                <button
-                  type='submit'
-                  className='inline-flex justify-center items-center space-x-2 border font-semibold focus:outline-none px-3 py-2 leading-5 text-sm rounded border-indigo-200 bg-indigo-200 text-indigo-700 hover:text-indigo-700 hover:bg-indigo-300 hover:border-indigo-300 focus:ring focus:ring-indigo-500 focus:ring-opacity-50 active:bg-indigo-200 active:border-indigo-200'
+                <a
+                  href='https://www.iitp.ac.in/index.php/contact?id=190'
+                  className='text-orange-300 hover:text-orange-400'
+                  target={'_blank'}
+                  rel='noreferrer'
                 >
-                  Subscribe
-                </button>
-              </form>
+                  Communication Directory
+                </a>
+              </div>
             </div>
           </div>
           <hr className='my-10 opacity-10' />
@@ -175,7 +156,7 @@ export default function Footer() {
               </a>
             </nav>
             <div className='text-gray-400'>
-              <span className='font-medium'>Company Inc</span> ©
+              <span className='font-medium'>IIT Patna</span> ©
             </div>
           </div>
         </div>
