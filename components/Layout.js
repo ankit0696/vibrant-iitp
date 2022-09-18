@@ -4,7 +4,7 @@ import Footer from '@/components/Footer'
 import { Toaster } from 'react-hot-toast'
 
 export default function Layout({
-  title = '',
+  title = 'Vibrant | IIT Patna',
   keywords = '',
   description = '',
   children,

@@ -8,17 +8,17 @@ const teams = [
       {
         name: 'Twitter',
         icon: 'icon-twitter',
-        link: 'javascript:void(0)',
+        link: '#',
       },
       {
         name: 'Facebook',
         icon: 'icon-facebook',
-        link: 'javascript:void(0)',
+        link: '#',
       },
       {
         name: 'LinkedIn',
         icon: 'icon-linkedin',
-        link: 'javascript:void(0)',
+        link: '#',
       },
     ],
   },
@@ -30,17 +30,17 @@ const teams = [
       {
         name: 'Twitter',
         icon: 'icon-twitter',
-        link: 'javascript:void(0)',
+        link: '#',
       },
       {
         name: 'Facebook',
         icon: 'icon-facebook',
-        link: 'javascript:void(0)',
+        link: '#',
       },
       {
         name: 'LinkedIn',
         icon: 'icon-linkedin',
-        link: 'javascript:void(0)',
+        link: '#',
       },
     ],
   },
@@ -52,17 +52,17 @@ const teams = [
       {
         name: 'Twitter',
         icon: 'icon-twitter',
-        link: 'javascript:void(0)',
+        link: '#',
       },
       {
         name: 'Facebook',
         icon: 'icon-facebook',
-        link: 'javascript:void(0)',
+        link: '#',
       },
       {
         name: 'LinkedIn',
         icon: 'icon-linkedin',
-        link: 'javascript:void(0)',
+        link: '#',
       },
     ],
   },
@@ -74,17 +74,17 @@ const teams = [
       {
         name: 'Twitter',
         icon: 'icon-twitter',
-        link: 'javascript:void(0)',
+        link: '#',
       },
       {
         name: 'Facebook',
         icon: 'icon-facebook',
-        link: 'javascript:void(0)',
+        link: '#',
       },
       {
         name: 'LinkedIn',
         icon: 'icon-linkedin',
-        link: 'javascript:void(0)',
+        link: '#',
       },
     ],
   },
@@ -96,17 +96,17 @@ const teams = [
       {
         name: 'Twitter',
         icon: 'icon-twitter',
-        link: 'javascript:void(0)',
+        link: '#',
       },
       {
         name: 'Facebook',
         icon: 'icon-facebook',
-        link: 'javascript:void(0)',
+        link: '#',
       },
       {
         name: 'LinkedIn',
         icon: 'icon-linkedin',
-        link: 'javascript:void(0)',
+        link: '#',
       },
     ],
   },
@@ -134,7 +134,7 @@ export default function Team() {
             {teams.map((team) => (
               <div className='text-center' key={team.name}>
                 <a
-                  href='javascript:void(0)'
+                  href='#'
                   className='block relative group overflow-hidden active:opacity-75 mb-3'
                 >
                   <div className='absolute top-0 right-0 w-16 h-16 -mt-8 -mr-8 transform transition ease-out duration-150 rotate-45 scale-0 group-hover:scale-125 bg-white z-10' />
@@ -151,7 +151,7 @@ export default function Team() {
                 </p>
                 <div className='space-x-1 mb-3'>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='text-gray-400 hover:text-gray-600 active:text-gray-400'
                   >
                     <svg
@@ -164,7 +164,7 @@ export default function Team() {
                     </svg>
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='text-gray-400 hover:text-gray-600 active:text-gray-400'
                   >
                     <svg
@@ -177,7 +177,7 @@ export default function Team() {
                     </svg>
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='text-gray-400 hover:text-gray-600 active:text-gray-400'
                   >
                     <svg

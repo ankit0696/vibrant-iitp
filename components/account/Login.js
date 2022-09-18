@@ -74,7 +74,7 @@ export default function Login() {
                             <span className='ml-2'>Remember me</span>
                           </label>
                           <a
-                            href='javascript:void(0)'
+                            href='#'
                             className='font-medium inline-block text-orange-600 hover:text-orange-400'
                           >
                             Forgot Password?
@@ -86,7 +86,7 @@ export default function Login() {
                     <div className='text-sm text-gray-500'>
                       Don’t have an account yet?
                       <a
-                        href='javascript:void(0)'
+                        href='#'
                         className='font-medium text-orange-600 hover:text-orange-400'
                       >
                         Join us today

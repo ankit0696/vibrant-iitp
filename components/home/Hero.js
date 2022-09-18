@@ -37,7 +37,7 @@ export default function Hero() {
                 </a>
               </Link>
               <a
-                href='javascript:void(0)'
+                href='#'
                 className='inline-flex justify-center items-center space-x-2 border font-semibold focus:outline-none px-6 py-4 leading-6 rounded border-gray-300 bg-white text-gray-800 shadow-sm hover:text-gray-800 hover:bg-gray-100 hover:border-gray-300 hover:shadow focus:ring focus:ring-gray-500 focus:ring-opacity-25 active:bg-white active:border-white active:shadow-none'
               >
                 <span>Learn more</span>

@@ -34,7 +34,7 @@ export default function Header() {
               <ul className='hidden lg:flex items-center'>
                 <li className='relative group'>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='font-semibold inline-flex items-center space-x-1 h-8 px-4 group-hover:text-orange-500 text-gray-900 hover:text-gray-500'
                   >
                     <span>Guidelines</span>
@@ -95,7 +95,7 @@ export default function Header() {
                   </h4>
                   <nav className='flex flex-col space-y-3'>
                     <a
-                      href='javascript:void(0)'
+                      href='#'
                       className='text-gray-600 hover:text-orange-600 font-medium text-sm'
                     >
                       Guidelines
