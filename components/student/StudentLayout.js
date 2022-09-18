@@ -585,6 +585,7 @@ ADD YOUR MAIN CONTENT ABOVE
                 <a
                   href='https://iitp.ac.in'
                   target='_blank'
+                  rel='noreferrer'
                   className='font-medium text-orange-600 hover:text-orange-400'
                 >
                   IIT Patna
@@ -610,6 +611,7 @@ ADD YOUR MAIN CONTENT ABOVE
                   <a
                     href='https://iitp.ac.in'
                     target='_blank'
+                    rel='noreferrer'
                     className='font-medium text-orange-600 hover:text-orange-400'
                   >
                     Ankit
